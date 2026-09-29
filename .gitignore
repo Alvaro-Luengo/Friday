@@ -1,0 +1,35 @@
+# Secretos y entorno local
+.env
+.env.local
+PyWhatKit_DB.txt
+token_usage.json
+
+# Logs y registros temporales
+*.log
+agy_audit.jsonl
+friday.log
+build_out.txt
+build_err.txt
+
+# Binarios y ejecutables pesados (>30MB)
+cloudflared.exe
+ngrok.exe
+Jarvis.exe
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+desktop_original_backup/
+
+# Android Build & Gradle
+android_app/.gradle/
+android_app/app/build/
+android_app/local.properties
+android_app/**/.cxx/
+android_app/**/build/
+.gradle/
+
+# Mantener Friday.apk en el repo para descarga directa en el móvil
+!Friday.apk
